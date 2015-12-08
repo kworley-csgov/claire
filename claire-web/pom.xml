@@ -53,7 +53,7 @@
 					<!-- application path always starts with / -->
 					<path>/</path>
 					<!-- enable ssl (required since we're enforcing https in our web.xml) -->
-					<httpsPort>8443</httpsPort>
+					<httpsPort>443</httpsPort>
 					<keystoreFile>${project.build.directory}/tomcat-ssl.keystore</keystoreFile>
 					<keystorePass>tomcat-learn</keystorePass>
 				</configuration>
